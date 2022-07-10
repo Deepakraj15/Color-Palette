@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.cards {
+    margin: 0 0 0 10%;
+    display: flex;
+    position: absolute;
+    top: 200px;
+    width: fit-content;
+}
+
+.card {
+    text-align: center;
+    margin: 0 15px 0 15px;
+    width: 200px;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.generate-btn {
+    position: absolute;
+    top: 650px;
+    left: 42%;
+    border: none;
+    width: 170px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    line-height: 10px;
+    letter-spacing: 2px;
+    border-radius: 7px;
+}
+
+.text {
+    font-size: 17px;
+    letter-spacing: 1px;
+
+}
+
+.text,
+.generate-btn {
+    font-weight: 700;
+}
+
+.text:hover {
+    transform: translateY(10px);
+}
