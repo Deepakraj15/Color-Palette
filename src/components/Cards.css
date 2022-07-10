@@ -13,11 +13,19 @@
 }
 
 .card {
+    position: relative;
     text-align: center;
     margin: 0 15px 0 15px;
     width: 200px;
     border-radius: 10px;
     height: 400px;
+    z-index: 0;
+}
+
+.card:hover {
+    width: 210px;
+    height: 410px;
+    z-index: 100;
 }
 
 .generate-btn {
@@ -36,6 +44,7 @@
 }
 
 .text {
+    margin: 10px 0 0 0;
     font-size: 17px;
     letter-spacing: 1px;
 
@@ -47,5 +56,12 @@
 }
 
 .text:hover {
-    transform: translateY(10px);
+    transform: translateY(3px);
+}
+
+.copy-text {
+    position: absolute;
+    width: 100px;
+    height: fit-content;
+    background-color: blue;
 }
