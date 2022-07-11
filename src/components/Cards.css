@@ -10,7 +10,7 @@
     margin: 0 0 0 10%;
     display: flex;
     position: absolute;
-    top: 175px;
+    top: 25%;
     width: fit-content;
     padding: 30px;
 }
@@ -27,7 +27,7 @@
 
 .generate-btn {
     position: absolute;
-    top: 650px;
+    top: 85%;
     left: 44%;
     border: none;
     width: 200px;
