@@ -23,9 +23,21 @@
 }
 
 .card:hover {
-    width: 210px;
-    height: 410px;
-    z-index: 100;
+    animation: zoom-out 1s;
+}
+
+@keyframes zoom-out {
+    from {
+        width: 200px;
+        height: 400px;
+
+    }
+
+    to {
+        width: 205px;
+        height: 405px;
+    }
+
 }
 
 .generate-btn {
@@ -44,9 +56,13 @@
 }
 
 .text {
+    position: absolute;
+    top: 350px;
+    left: 30%;
     margin: 10px 0 0 0;
-    font-size: 17px;
+    font-size: 19px;
     letter-spacing: 1px;
+    width: fit-content;
 
 }
 
@@ -56,7 +72,8 @@
 }
 
 .text:hover {
-    transform: translateY(3px);
+    font-size: 20px;
+    border-radius: 5px;
 }
 
 .copy-text {
@@ -64,4 +81,18 @@
     width: 100px;
     height: fit-content;
     background-color: blue;
+}
+
+
+.copy-icon {
+    background-color: none;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.icon-holder {}
+
+.icon-holder {
+    position: absolute;
+    display: inline;
 }

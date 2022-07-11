@@ -1,5 +1,5 @@
 import './Header.css';
 function Header() {
-    return <h1>COL<span>OR GEN</span>ERATOR</h1>
+    return <h1>COL<span>OR PA</span>LETTE</h1>
 }
 export default Header;
