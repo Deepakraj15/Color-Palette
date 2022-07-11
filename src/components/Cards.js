@@ -5,7 +5,6 @@ import copyicon from './copyicon.png';
 import './Cards.css';
 function Cards() {
     let colors = [];
-    let isCopied = false;
     const hexaDecimals = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'];
     let colorString = '#';
     for (let i = 0; i < 5; i++) {
@@ -26,9 +25,9 @@ function Cards() {
                     <div className="card" key={index} style={{ backgroundColor: color, boxShadow: `7px 5px 5px ${color} ` }}>
                         <CopyToClipboard onCopy={() => { alertSuccess() }} text={color}>
                             {color === '#FFFFFF' ? <div className='text' style={{ color: 'black' }}>{color} <span className='icon-holder'>
-                                <img className='copy-icon' src={copyicon} alt='image not found' />
+                                <img className='copy-icon' src={copyicon} alt="" />
                             </span></div> : <div className='text' style={{ color: 'white' }}>{color} <span className='icon-holder'>
-                                <img className='copy-icon' src={copyicon} alt='image not found' />
+                                <img className='copy-icon' src={copyicon} alt="" />
                             </span></div>}
                         </CopyToClipboard>
                     </div>

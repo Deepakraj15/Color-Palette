@@ -1,3 +1,19 @@
+.header-box {
+    margin: 10px 0 0 10px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    color: azure;
+    margin-left: 20px;
+}
+
 span {
     color: blueviolet;
 }

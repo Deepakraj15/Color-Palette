@@ -5,11 +5,14 @@
 }
 
 .cards {
+    border-radius: 30px;
+    background-color: aliceblue;
     margin: 0 0 0 10%;
     display: flex;
     position: absolute;
-    top: 200px;
+    top: 175px;
     width: fit-content;
+    padding: 30px;
 }
 
 .card {
@@ -22,37 +25,33 @@
     z-index: 0;
 }
 
-.card:hover {
-    animation: zoom-out 1s;
-}
-
-@keyframes zoom-out {
-    from {
-        width: 200px;
-        height: 400px;
-
-    }
-
-    to {
-        width: 205px;
-        height: 405px;
-    }
-
-}
-
 .generate-btn {
     position: absolute;
     top: 650px;
-    left: 42%;
+    left: 44%;
     border: none;
-    width: 170px;
-    height: 30px;
+    width: 200px;
+    height: 35px;
     background-color: blue;
     color: white;
     font-size: 15px;
     line-height: 10px;
     letter-spacing: 2px;
     border-radius: 7px;
+}
+
+.generate-btn:hover {
+    animation: button-change 1s alternate infinite;
+}
+
+@keyframes button-change {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: #363636;
+    }
 }
 
 .text {
@@ -114,7 +113,7 @@
     padding: 16px 15px;
     border-radius: 16px;
     font-size: 15px;
-    box-shadow: 0 20px 30px 0 #cbcbcb, 0 0 8px 0 #cbcbcb;
+    box-shadow: 0 0 10px 0 #cbcbcb, 0 0 3px 0 #cbcbcb;
 }
 
 .--react--toast-alert p {
