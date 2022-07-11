@@ -28,7 +28,7 @@
 
 .generate-btn {
     position: absolute;
-    top: 85%;
+    top: 86%;
     left: 44%;
     border: none;
     width: 200px;
@@ -57,7 +57,7 @@
 
 .text {
     position: absolute;
-    top: 350px;
+    top: 90%;
     left: 30%;
     margin: 10px 0 0 0;
     font-size: 19px;
