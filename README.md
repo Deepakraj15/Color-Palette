@@ -27,5 +27,5 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-You can learn more about deployment in [Heoku deployment documentation](//https://devcenter.heroku.com/categories/reference)
+You can learn more about deployment in [Heroku deployment documentation](//https://devcenter.heroku.com/categories/reference)
 
