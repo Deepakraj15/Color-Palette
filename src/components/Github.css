@@ -1,4 +1,5 @@
 .github {
+    object-fit: contain;
     position: absolute;
     top: 30px;
     right: 30px;
